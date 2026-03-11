@@ -1,7 +1,5 @@
 # astro-6
 
-[![CI](https://github.com/getskillsdev/claude-astro-6-cf-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/getskillsdev/claude-astro-6-cf-starter/actions/workflows/ci.yml)
-
 Scaffold Astro 6 projects on Cloudflare Pages with Tailwind CSS v4, D1 + Drizzle REST APIs, and Vitest.
 
 ## Why use this?
