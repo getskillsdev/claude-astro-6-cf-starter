@@ -14,9 +14,13 @@ Create a new Astro 6 project deployed to Cloudflare Pages.
 - Cloudflare Pages
 - Node 22 (Active LTS)
 
-## What this will do
+## Instructions
+
+**Step 0 — Show the user this overview before doing anything else:**
 
 ```
+Here's what we'll set up:
+
 1. Core         — scaffold project, Tailwind v4, configs
 2. Style        — CSS entry point, base styles, middleware *
 3. Components   — Head, Header, Footer, layout, index page
@@ -30,7 +34,7 @@ Create a new Astro 6 project deployed to Cloudflare Pages.
 * = optional, you'll be asked
 ```
 
-## Instructions
+Wait for the user to confirm before proceeding.
 
 This command orchestrates the full setup by calling subcommands:
 

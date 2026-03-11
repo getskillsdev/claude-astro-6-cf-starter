@@ -19,7 +19,9 @@ node --version
 Require Node 20.19.1+ or 22.12.0+. Node 23+ is fine.
 If below: ask user what version manager they use (nvm, fnm, volta, mise, etc.) and help them switch to Node 22.
 
-**2. Ask for project directory name** (e.g., `website/`)
+**2. Project directory:**
+
+If a directory was provided as an argument, use it. `.` means current directory. Only ask if no directory was given.
 
 **3. Check latest Astro 6:**
 ```bash
