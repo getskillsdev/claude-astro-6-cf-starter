@@ -23,12 +23,12 @@ Astro 6 on Cloudflare Pages
 
 1. Scaffold        — create the project and install Tailwind v4
 2. Tailwind setup  — add a CSS file with sensible defaults
-3. Middleware      — log page requests during development (optional)
+3. Middleware *    — log page requests during development
 4. Components      — starter header, footer, layout, and home page
-5. Sharp           — faster image loading (optional)
-6. Collections     — organize blog posts or pages as markdown files (optional)
-7. Client routing  — navigate between pages without full reloads (optional)
-8. REST API        — add a database-backed API endpoint (optional)
+5. Sharp *         — faster image loading
+6. Collections *   — organize blog posts or pages as markdown files
+7. Client routing *— navigate between pages without full reloads
+8. REST API *      — add a database-backed API endpoint
    ├── Infrastructure — Cloudflare D1, Drizzle ORM, Zod validation, Vitest
    ├── Resource       — model, actions, and route files
    └── Tests          — test helpers and example test
