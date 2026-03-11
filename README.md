@@ -1,6 +1,12 @@
-# astro-6
+# claude-astro-6-cf-starter
 
-Scaffold Astro 6 projects on Cloudflare Pages with Tailwind CSS v4, D1 + Drizzle REST APIs, and Vitest.
+Want to try out Astro 6 but not sure how to get it setup with Cloudflare?
+
+Want to build a full-stack Astro 6 site on Cloudflare Pages - static pages plus a D1-backed REST API — without spending hours wiring up the adapter, Drizzle, Vitest, and sharp?
+
+This starter scaffolds an Astro 6 projects - ready for Cloudflare Pages with Tailwind CSS v4, D1 + Drizzle REST APIs, and Vitest - all configured and ready to go!
+
+This claude skill will ask you: if you need an API, and will then generate your first API endpoint using solid REST best practices - also includes tests.
 
 ## Why use this?
 
@@ -17,7 +23,7 @@ This plugin has already hit every wall so you don't have to.
 - Wrangler `compatibility_date` — set recent enough for workerd + Vite to work
 - Old env pattern — uses `import { env } from 'cloudflare:workers'`, not the deprecated `App.Locals.runtime.env`
 
-## What you get
+## What you get:
 
 - Astro 6 + Tailwind CSS v4 (Vite plugin — no PostCSS or Tailwind config files)
 - Cloudflare Pages deployment ready
