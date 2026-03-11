@@ -1,7 +1,7 @@
 {
   "name": "get",
   "description": "Scaffold Astro 6 projects on Cloudflare Pages with Tailwind CSS v4, D1 + Drizzle REST APIs, and Vitest",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "getskillsdev"
   }

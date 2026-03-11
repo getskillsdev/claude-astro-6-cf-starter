@@ -29,7 +29,10 @@ Astro 6 on Cloudflare Pages
 6. Collections     — organize blog posts or pages as markdown files (optional)
 7. Client routing  — navigate between pages without full reloads (optional)
 8. REST API        — add a database-backed API endpoint (optional)
-9. Generate        — create a CLAUDE.md so future sessions know the setup
+   ├── Infrastructure — Cloudflare D1, Drizzle ORM, Zod validation, Vitest
+   ├── Resource       — model, actions, and route files
+   └── Tests          — test helpers and example test
+9. CLAUDE.md       — create a CLAUDE.md so future sessions know the setup
 ```
 
 Wait for the user to confirm before proceeding.
