@@ -1,0 +1,16 @@
+{
+  "name": "astro-6",
+  "owner": {
+    "name": "getskillsdev",
+    "url": "https://github.com/getskillsdev"
+  },
+  "metadata": {
+    "description": "Scaffold Astro 6 projects on Cloudflare Pages with Tailwind CSS v4, D1 + Drizzle REST APIs, and Vitest",
+    "version": "0.1.0"
+  },
+  "plugins": [{
+    "name": "get",
+    "source": "./",
+    "description": "Scaffold Astro 6 projects on Cloudflare Pages with Tailwind CSS v4, D1 + Drizzle REST APIs, and Vitest"
+  }]
+}
