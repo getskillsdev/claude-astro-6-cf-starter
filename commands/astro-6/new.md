@@ -19,19 +19,17 @@ Create a new Astro 6 project deployed to Cloudflare Pages.
 **Step 0 — Show the user this overview before doing anything else:**
 
 ```
-Here's what we'll set up:
+Astro 6 on Cloudflare Pages
 
-1. Core         — scaffold project, Tailwind v4, configs
-2. Style        — CSS entry point, base styles, middleware *
-3. Components   — Head, Header, Footer, layout, index page
-4. Sharp        — image optimization (CI-safe install)
-5. Prompts
-   ├── Content collections *
-   ├── Client-side routing *
-   └── REST API (D1 + Drizzle + Vitest) *
-6. Finish       — generate CLAUDE.md
-
-* = optional, you'll be asked
+1. Scaffold        — create the project and install Tailwind v4
+2. Tailwind setup  — add a CSS file with sensible defaults
+3. Middleware      — log page requests during development (optional)
+4. Components      — starter header, footer, layout, and home page
+5. Sharp           — faster image loading (optional)
+6. Collections     — organize blog posts or pages as markdown files (optional)
+7. Client routing  — navigate between pages without full reloads (optional)
+8. REST API        — add a database-backed API endpoint (optional)
+9. Generate        — create a CLAUDE.md so future sessions know the setup
 ```
 
 Wait for the user to confirm before proceeding.
@@ -90,11 +88,6 @@ export const collections = { pages };
 ```
 - "Do you want client-side routing?" → add `import { ClientRouter } from 'astro:transitions';` and `<ClientRouter />` to Head.astro (replaces old `<ViewTransitions />`)
 - "Scaffold REST API? Enter a singular resource name (e.g., post, mark, user) or leave blank to skip:" → if provided, run `/get:astro-6:api` then `/get:astro-6:api:resource <resource>` then `/get:astro-6:api:resource-test <resource>`. If blank, skip.
-
-**6. Finish**
-
-- Create CLAUDE.md with project info (stack choices made, directory structure, dev commands)
-- Confirm setup complete
 
 ---
 
